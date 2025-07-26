@@ -8,18 +8,18 @@ This project provides a minimal **Docker-based solution** to deploy a fully func
 
 ## 🚀 Features
 
-- ✅ Self-hostable Docker container
-- 🎨 Custom theme templating support (WIP)
-- 🔐 Securely displays only your public portfolio data
-- ⚡ Instant deploy with just two variables
-- 🌍 Great for developer sites, resumes, landing pages, or personal branding
+- ✅ Self-hostable Docker container  
+- 🎨 Custom theme templating support (WIP)  
+- 🔐 Securely displays only your public portfolio data  
+- ⚡ Instant deploy with just two variables  
+- 🌍 Great for developer sites, resumes, landing pages, or personal branding  
 
 ---
 
 ## 📦 Requirements
 
-- Docker installed
-- A valid Shoyo `PAGE_UID` and `PUBLIC_KEY`
+- Docker installed  
+- A valid Shoyo `PAGE_UID` and `PUBLIC_KEY`  
 
 You can get these from your [Shoyo Dashboard](https://shoyo.work).
 
@@ -97,6 +97,17 @@ Stay tuned for upcoming updates!
 
 ---
 
+## 🤖 LLM Support
+
+To enhance automatic documentation generation and improve onboarding for tools like ChatGPT or GitHub Copilot, this project includes:
+
+* **[`_llm_summary.md`](./_llm_summary.md)**: A metadata file describing the project structure, usage expectations, and LLM-guided goals.
+* **`project_structure.md`**: Auto-generated tree and context for LLMs and human readers.
+
+These files can be used to build accurate AI-generated READMEs, contribution guides, and code summaries.
+
+---
+
 ## ❤️ Powered by Shoyo
 
 This project fetches and renders public portfolio data via [shoyo.work](https://shoyo.work). To create your portfolio, visit the official platform and generate your `PAGE_UID` and `PUBLIC_KEY`.
@@ -123,3 +134,5 @@ MIT License – Use, modify, and self-host freely.
 
 Have ideas or want to contribute custom themes or render logic?
 PRs welcome, or contact us at [shoyo.work](https://shoyo.work).
+
+Join the community: [Discord](https://discord.gg/Vbq4zGdaVs)
